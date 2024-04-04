@@ -1,3 +1,9 @@
+input_data.py - примерный вид кода, что должен быть в тг боте.
+index.php - использование api.
+Связь происходит благодаря json.
+Парсера для выходного json нет. 
+
+
 # Api сайта rzd.ru
 
 [![Latest Stable Version](https://poser.pugx.org/visavi/rzd-api/v/stable)](https://packagist.org/packages/visavi/rzd-api)
