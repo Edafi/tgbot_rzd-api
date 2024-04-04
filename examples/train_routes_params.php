@@ -1,6 +1,9 @@
 <?php
 
 require dirname(__DIR__) . '/vendor/autoload.php';
+require_once __DIR__.'/../src/Rzd/Api.php'; 
+require_once __DIR__.'/../src/Rzd/Config.php';
+require_once __DIR__.'/../src/Rzd/Query.php';
 
 $config = new Rzd\Config();
 

@@ -125,7 +125,7 @@ $stations = $api->trainStationList($params);
 $api = new Rzd\Api();
 
 $params = [
-    'stationNamePart' => 'ЧЕБ',
+    'stationNamePart' => 'ИРК',
     'compactMode'     => 'y',
 ];
 
