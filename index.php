@@ -50,7 +50,5 @@ require_once __DIR__.'/src/Rzd/Query.php';
     ];
     
     $api = new Rzd\Api();
-    
-    echo $api->trainRoutes($params);
     file_put_contents('output.json', $api->trainRoutes($params));
 ?>

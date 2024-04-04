@@ -1,5 +1,5 @@
 import json
-import subprocess
+import os
 
 #$params = [
 #    'dir'        => 0,             0 - в одну сторону, 1 - туда-обратно
@@ -27,4 +27,4 @@ dt0 = '06.04.2024'
 data = {'dir': dir, 'tfl': tfl, 'checkSeats': checkSeats, 'code0':code0, 'code1' : code1, 'dt0': '06.04.2024'}
 with open('/home/dan/tgbot_rzd/rzd-api/data.json', 'w') as outfile:
     json.dump(data, outfile)
-subprocess.call("php index.php")
+os.system("php index.php")
